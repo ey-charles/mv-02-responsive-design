@@ -1,0 +1,47 @@
+/** Reset **/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/** .topbar **/
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.topbar-item{
+  display: inline-block;
+  padding: 16px 20px;
+  border: 1px solid #EEEEEE;
+  margin: 0;
+}
+
+.topbar-logo {
+  background: #131313;
+  display: inline-block;
+  padding: 16px 20px;
+}
+
+.topbar-logo-img {
+  width: 66px;
+  height: 16px;
+}
+
+.topbar-icon {
+  color: #BFBFBF;
+}
+.topbar-icon-menu {  
+  color: #FD4422;
+}
