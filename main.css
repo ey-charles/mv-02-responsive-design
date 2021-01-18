@@ -159,6 +159,13 @@ body {
 .thumbnail-07 { background-image: url("img/tn07-480x270.jpeg"); }
 .thumbnail-08 { background-image: url("img/tn08-516x270.jpg"); }
 
+.tn-pop-01 { background-image: url("img/popular-01.jpg"); }
+.tn-pop-02 { background-image: url("img/popular-02.webp"); }
+.tn-pop-03 { background-image: url("img/popular-03.jpg"); }
+
+.tn-latest-01 { background-image: url("img/latest-01.jpg"); }
+.tn-latest-03 { background-image: url("img/latest-03.webp"); }
+
 /** .index **/
 .index {
   font-family: sans-serif;
@@ -242,4 +249,111 @@ body {
 
 .index-box-byline li {
   display: inline-block;
+}
+
+/** .topics **/
+.topics {
+  font-family: sans-serif;
+  padding: 0 14px;
+}
+
+.topic {
+  margin-bottom: 24px;
+}
+
+.topic-popular {
+  display: flex;
+  align-items: flex-end;
+  background-color: black;
+  height: 300px;
+}
+
+.topic-popular header {
+  padding: 0 14px 14px 14px;
+  width: 100%;
+  background: rgb(9,9,9);
+  background: linear-gradient(0deg, rgba(9,9,9,0.9) 45%, rgba(241,241,241,0) 100%);
+}
+
+.topic-popular h2 a {
+  color: white;
+}
+
+.topic-popular h2 a:hover,
+.topic-popular h2 a:focus {
+  text-decoration: underline;
+}
+
+.topic-popular h5 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+}
+
+.topic-popular ul {
+  list-style: none;
+}
+
+.topic-popular li {
+  color: #99999A;
+  display: inline-block;
+  margin-right: 7px;
+}
+
+.topic-latest {
+  background: #FFF5F3;
+  display: flex;
+  justify-content: space-between;
+}
+
+.topic-latest header {
+  box-sizing: border-box;
+  line-height: 1.24;
+  padding: 12px 14px 0 14px;
+  flex-shrink: 2;
+}
+
+.topic-latest-img {
+  background-color: #FD4422;
+  width: 96px;
+  height: 96px;
+  flex-shrink: 1;
+}
+
+.topic-latest h2 a {
+  color: #FD4422;
+  font-size: 14px;
+}
+
+.topic-latest h2 a:hover {
+  text-decoration: underline;
+}
+
+.topic-latest h5 {
+  color: #FD4422;
+  font-size: 10px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.headlines {
+  list-style: disc outside none;
+  padding-left: 24px;
+}
+
+.headlines li {
+  color: #FD4422;
+  border-bottom: 1px solid #EEEEEE;
+  padding: 7px;
+}
+
+.headlines a {
+  color: #555555;
+}
+
+.headlines a:hover,
+.headlines a:focus {
+  color: black;
 }
