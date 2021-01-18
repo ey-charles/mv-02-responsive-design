@@ -27,11 +27,14 @@ body {
   z-index: 99;
 }
 
+.topbar-right {
+  display: flex;
+}
+
 .topbar-item{
-  display: inline-block;
   padding: 16px 20px;
   border: 1px solid #EEEEEE;
-  margin: 0;
+  margin-right: -1px;
 }
 
 .topbar-logo {
