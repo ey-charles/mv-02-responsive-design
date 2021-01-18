@@ -10,9 +10,14 @@ a {
   text-decoration: none;
 }
 
+body {
+  font-size: 13px;
+  line-height: 1.5;
+}
 
 /** .topbar **/
 .topbar {
+  background: white;
   display: flex;
   justify-content: space-between;
   position: fixed;
@@ -44,4 +49,43 @@ a {
 }
 .topbar-icon-menu {  
   color: #FD4422;
+}
+
+
+/** .main **/
+.main {
+  padding-top: 50px;
+}
+
+/** .cover **/
+.cover {
+  background: #F0F0F0;
+  font-family: sans-serif;
+  padding: 0 12px;
+}
+
+.cover--grid {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 250px 250px 250px;
+  row-gap: 12px;
+}
+
+.cover-item {
+  background: black;
+  display: flex;
+  align-items: flex-end;
+}
+
+.cover-item a {
+  color: white;
+}
+
+.cover-header {
+  padding: 12px;
+}
+.cover-byline li {
+  color: #9A9A9A;
+  display: inline-block;
+  margin-right: 12px;
 }
