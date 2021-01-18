@@ -89,3 +89,28 @@ body {
   display: inline-block;
   margin-right: 12px;
 }
+
+.news-title {
+  color: #F0F0F0;
+}
+
+.news-article {
+font-family: sans-serif;
+font-size: 9px;
+}
+
+.news {
+  padding: 12px;
+}
+
+.news-byline li {
+  color:#9A9A9A;
+  display: inline-block;
+  margin-right: 10px;
+
+}
+
+..news-article a {
+
+  color: #131313;
+}
