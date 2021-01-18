@@ -24,6 +24,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 99;
 }
 
 .topbar-item{
@@ -57,11 +58,23 @@ body {
   padding-top: 50px;
 }
 
+.section-title {
+  color: #FD4422;
+  font-size: 28px;
+  font-family: sans-serif;
+  display: inline-block;
+}
+
+.section-title:hover,
+.section-title:focus {
+  color: black;
+}
+
 /** .cover **/
 .cover {
   background: #F0F0F0;
   font-family: sans-serif;
-  padding: 0 12px;
+  padding: 0 14px;
 }
 
 .cover--grid {
@@ -93,19 +106,7 @@ body {
 /** .news **/
 .news {
   font-family: sans-serif;
-  padding: 12px;
-}
-
-.news-title a {
-  color: #FD4422;
-  font-size: 28px;
-  display: inline-block;
-  margin-bottom: 21px;
-}
-
-.news-title a:hover,
-.news-title a:focus {
-  color: black;
+  padding: 14px 14px 84px 14px;
 }
 
 .news-article {
@@ -157,3 +158,88 @@ body {
 .thumbnail-06 { background-image: url("img/tn06-480x270.webp"); }
 .thumbnail-07 { background-image: url("img/tn07-480x270.jpeg"); }
 .thumbnail-08 { background-image: url("img/tn08-516x270.jpg"); }
+
+/** .index **/
+.index {
+  font-family: sans-serif;
+  padding: 14px;
+}
+
+.index-nav a {
+  color: #FD4422;
+  font-size: 14px;
+  padding-bottom: 8px;
+  display: inline-block;
+}
+
+.index-nav a:hover,
+.index-nav a:focus {
+  color: black;
+}
+
+.index-box {
+  margin-bottom: 14px;
+}
+
+.index-box-header {
+  position: relative;
+}
+
+.index-box-img {
+  position: absolute;
+  left: 12px;
+  top: 12px;
+}
+
+.index-box-name {
+  color: white;
+  font-size: 18px;
+  background: #FD4422;
+  display: block;
+  padding: 12px 16px 12px 84px;
+}
+
+.index-box-deets {
+  background: #FFECE8;
+  display: block;
+  padding: 12px 16px 12px 84px;
+}
+
+.index-box-deets h4 {
+  font-size: 18px;
+}
+
+.index-box-deets h5 {
+  color: #867D7A;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.index-box-card {
+  background: #FFFAF8;
+  padding: 12px;
+}
+
+.index-box-card-link {
+  color: #626261;
+  font-size: 14px;
+  display: block;
+  padding: 0 0 12px 12px;
+}
+
+.index-box-card-link i {
+  color: black;
+  margin-right: 6px;
+}
+
+.index-box-byline {
+  color: #626261;
+  background: #FFFAF8;
+  border-top: 1px solid #FECEC5;
+  padding: 12px;
+  list-style: none;
+}
+
+.index-box-byline li {
+  display: inline-block;
+}
