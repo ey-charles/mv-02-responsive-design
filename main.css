@@ -93,7 +93,7 @@ body {
 }
 
 .cover-item {
-  background: black;
+  background-color: black;
   display: flex;
   align-items: flex-end;
 }
@@ -103,7 +103,10 @@ body {
 }
 
 .cover-header {
+  width: 100%;
   padding: 12px;
+  background: rgb(9,9,9);
+  background: linear-gradient(0deg, rgba(9,9,9,0.9) 45%, rgba(241,241,241,0) 100%);
 }
 .cover-byline li {
   color: #9A9A9A;
@@ -185,8 +188,6 @@ body {
 .tn-pop-08 { background-image: url("img/popular-08.jpg"); }
 .tn-pop-09 { background-image: url("img/popular-09.jpg"); }
 
-
-
 .tn-latest-01 { background-image: url("img/latest-01.jpg"); }
 .tn-latest-03 { background-image: url("img/latest-03.webp"); }
 .tn-latest-04 { background-image: url("img/latest-04.png"); }
@@ -195,7 +196,9 @@ body {
 .tn-latest-08 { background-image: url("img/latest-08.jpg"); }
 .tn-latest-09 { background-image: url("img/latest-09.webp"); }
 
-
+.tn-cover-01 { background-image: url("img/cover-01.webp"); }
+.tn-cover-02 { background-image: url("img/cover-02.jpg"); }
+.tn-cover-03 { background-image: url("img/cover-03.jpg"); }
 
 
 /** .index **/
