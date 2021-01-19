@@ -6,6 +6,11 @@
   padding: 0;
 }
 
+.price{
+
+  text-decoration: line-through;
+ 
+}
 a {
   text-decoration: none;
 }
@@ -161,13 +166,37 @@ body {
 .thumbnail-06 { background-image: url("img/tn06-480x270.webp"); }
 .thumbnail-07 { background-image: url("img/tn07-480x270.jpeg"); }
 .thumbnail-08 { background-image: url("img/tn08-516x270.jpg"); }
+.thumbnail-09 { background-image: url("img/tn09.jpg"); }
+.thumbnail-10 { background-image: url("img/tn-10.jpg"); }
+.thumbnail-11 { background-image: url("img/tn-11.jpg"); }
+.thumbnail-12 { background-image: url("img/tn-12.jpg"); }
+.thumbnail-13 { background-image: url("img/tn-13.jpg"); }
+.thumbnail-14 { background-image: url("img/tn-14.jpg"); }
+.thumbnail-15 { background-image: url("img/tn-15.jpg"); }
+.thumbnail-16 { background-image: url("img/tn-16.jpg"); }
 
 .tn-pop-01 { background-image: url("img/popular-01.jpg"); }
 .tn-pop-02 { background-image: url("img/popular-02.webp"); }
 .tn-pop-03 { background-image: url("img/popular-03.jpg"); }
+.tn-pop-04 { background-image: url("img/popular-04.png"); }
+.tn-pop-05 { background-image: url("img/popular-05.webp"); }
+.tn-pop-06 { background-image: url("img/popular-6.webp"); }
+.tn-pop-07 { background-image: url("img/popular-07.webp"); }
+.tn-pop-08 { background-image: url("img/popular-08.jpg"); }
+.tn-pop-09 { background-image: url("img/popular-09.jpg"); }
+
+
 
 .tn-latest-01 { background-image: url("img/latest-01.jpg"); }
 .tn-latest-03 { background-image: url("img/latest-03.webp"); }
+.tn-latest-04 { background-image: url("img/latest-04.png"); }
+.tn-latest-05 { background-image: url("img/latest-05.jpg"); }
+.tn-latest-07 { background-image: url("img/latest-07.webp"); }
+.tn-latest-08 { background-image: url("img/latest-08.jpg"); }
+.tn-latest-09 { background-image: url("img/latest-09.webp"); }
+
+
+
 
 /** .index **/
 .index {
