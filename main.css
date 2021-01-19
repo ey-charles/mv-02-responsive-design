@@ -6,11 +6,16 @@
   padding: 0;
 }
 
-.price{
+/** -----------------
+  Media queries are
+  - Medium: 768px
+  - Large: 1024px
+  **/
 
+.price{
   text-decoration: line-through;
- 
 }
+
 a {
   text-decoration: none;
 }
@@ -82,7 +87,7 @@ body {
 .cover {
   background: #F0F0F0;
   font-family: sans-serif;
-  padding: 0 14px;
+  padding: 14px;
 }
 
 .cover--grid {
