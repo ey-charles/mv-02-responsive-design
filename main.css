@@ -478,6 +478,22 @@ body {
   color: black;
 }
 
+/** topic media  **/
+@media(min-width: 768px){
+.topics {
+ display: flex;
+ flex-wrap: wrap;
+}
+.topic {
+    box-sizing: border-box;
+    width: 50%;
+    padding: 7px;
+    margin-bottom: 14px;
+
+}
+  
+}
+
 /** .footer **/
 .footer {
   background: #131313;
@@ -545,4 +561,11 @@ body {
 
 .footer-legal-logo img {
   width: 100%;
+}
+
+@media(min-width: 768px) {
+  .footer-legal li {
+  display: inline-block;
+    
+  }
 }
