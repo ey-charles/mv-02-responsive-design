@@ -392,3 +392,72 @@ body {
 .headlines a:focus {
   color: black;
 }
+
+/** .footer **/
+.footer {
+  background: #131313;
+  color: white;
+  text-align: center;
+  padding: 56px 0 0 0;
+}
+
+.footer-links-social {
+  list-style: none;
+}
+
+.footer-links-social-item {
+  display: inline-block;
+  margin: 0 3.5px;
+}
+
+.footer-links-social-item a {
+  color: white;
+  font-size: 15px;
+  background: #333333;
+  border: 2px solid #333333;
+  border-radius: 28px;
+  padding: 10px 14px;
+}
+
+.footer-links-social-item a:hover {
+  background: none;
+}
+
+.footer-links-menu {
+  list-style: none;
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+
+.footer-links-menu-item {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  display: inline-block;
+  cursor: pointer;
+  color: #AAAAAA;
+  padding: 7px;
+}
+
+.footer-links-menu-item:hover {
+  color: white;
+}
+
+.footer-legal {
+  font-family: sans-serif;
+  background: black;
+  padding: 28px 0;
+}
+
+.footer-legal li {
+  color: #AAAAAA;
+  margin-right: 7px;
+}
+
+.footer-legal-logo {
+  width: 38px;
+  display: inline-block;
+}
+
+.footer-legal-logo img {
+  width: 100%;
+}
