@@ -265,6 +265,10 @@ body {
   padding: 14px;
 }
 
+.index-nav {
+  margin-bottom: 14px;
+}
+
 .index-nav a {
   color: #FD4422;
   font-size: 14px;
@@ -278,6 +282,7 @@ body {
 }
 
 .index-box {
+  background: #FFFAF8;
   margin-bottom: 14px;
 }
 
@@ -342,6 +347,28 @@ body {
 
 .index-box-byline li {
   display: inline-block;
+}
+
+@media (min-width: 768px) {
+  .index-nav li {
+    display: inline-block;
+    margin-right: 14px;
+  }
+
+  .index-nav a {
+    font-size: 16px;
+  }
+
+  .index--grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 14px;
+  }
+
+  .index-box-byline {
+    font-size: 12px;
+  }
 }
 
 /** .topics **/
