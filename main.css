@@ -76,6 +76,7 @@ body {
   font-size: 28px;
   font-family: sans-serif;
   display: inline-block;
+  margin-bottom: 14px;
 }
 
 .section-title:hover,
@@ -115,8 +116,32 @@ body {
 }
 .cover-byline li {
   color: #9A9A9A;
+  font-size: 12px;
   display: inline-block;
   margin-right: 12px;
+}
+
+/** Medium and larger screens **/
+@media(min-width: 768px) {
+  .cover--grid {
+    grid-template-columns: 65% 35%;
+    grid-template-rows: 250px 250px;
+    grid-column-gap: 14px;
+  }
+
+  .cover--grid-main {
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+
+  .cover-item {
+    font-size: 12px;
+  }
+
+  .cover-item--main {
+    font-size: 24px;
+    line-height: 40px;
+  }
 }
 
 /** .news **/
