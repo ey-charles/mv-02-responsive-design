@@ -501,12 +501,12 @@ body {
   flex-shrink: 1;
 }
 
-.topic-latest h2 a {
+.topic-latest-link {
   color: #fd4422;
   font-size: 14px;
 }
 
-.topic-latest h2 a:hover {
+.topic-latest-link:hover {
   text-decoration: underline;
 }
 
