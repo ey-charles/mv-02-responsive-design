@@ -16,7 +16,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://hafedefheij.github.io/positioning-and-floating-project/)
+[Live Demo Link](https://ey-charles.github.io/mv-02-responsive-design/)
 
 ## Getting Started
 
