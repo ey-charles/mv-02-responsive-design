@@ -43,7 +43,7 @@ body {
 
 .topbar-item {
   padding: 16px 20px;
-  border: 1px solid #eeeeee;
+  border: 1px solid #eee;
   margin-right: -1px;
 }
 
@@ -93,7 +93,7 @@ body {
   }
 
   .topbar-menu-item a {
-    color: #AAAAAA;
+    color: #AAA;
   }
 
   .topbar-menu-item a:hover {
@@ -107,7 +107,7 @@ body {
 }
 
 .section-title {
-  color: #FD4422;
+  color: #fd4422;
   font-size: 28px;
   font-family: sans-serif;
   display: inline-block;
@@ -121,7 +121,7 @@ body {
 
 /** .cover **/
 .cover {
-  background: #F0F0F0;
+  background: #f0f0f0;
   font-family: sans-serif;
   padding: 14px;
 }
@@ -146,8 +146,8 @@ body {
 .cover-header {
   width: 100%;
   padding: 12px;
-  background: rgb(9,9,9);
-  background: linear-gradient(0deg, rgba(9,9,9,0.9) 45%, rgba(241,241,241,0) 100%);
+  background: rgb(9, 9, 9);
+  background: linear-gradient(0deg, rgba(9, 9, 9, 0.9) 45%, rgba(241, 241, 241, 0) 100%);
 }
 .cover-byline li {
   color: #9A9A9A;
