@@ -92,7 +92,7 @@ body {
   }
 
   .topbar-menu-item a {
-    color: #AAA;
+    color: #aaa;
   }
 
   .topbar-menu-item a:hover {
@@ -148,6 +148,7 @@ body {
   background: rgb(9, 9, 9);
   background: linear-gradient(0deg, rgba(9, 9, 9, 0.9) 45%, rgba(241, 241, 241, 0) 100%);
 }
+
 .cover-byline li {
   color: #9a9a9a;
   font-size: 12px;
@@ -183,7 +184,7 @@ body {
     height: 486px;
     position: relative;
     background: rgb(254, 65, 18);
-    background: linear-gradient(173deg, rgba(254, 65, 18, .7) 17%, rgba(192, 49, 14, .4) 43%, rgba(0, 0, 0,1) 71%);
+    background: linear-gradient(173deg, rgba(254, 65, 18, .7) 17%, rgba(192, 49, 14, .4) 43%, rgb(126, 36, 36) 71%);
   }
 
   .cover-item--main .cover-byline {
@@ -232,7 +233,7 @@ body {
 }
 
 .news-byline li {
-  color:#9A9A9A;
+  color:#9a9a9a;
   font-size: 10px;
   display: inline-block;
   margin-right: 10px;
@@ -266,7 +267,7 @@ body {
   }
 }
 
-@media(min-width: 1024px) {
+@media (min-width: 1024px) {
   .news-article {
     width: 25%;
   }
@@ -317,7 +318,6 @@ body {
 .tn-cover-02 { background-image: url("img/cover-02.jpg"); }
 .tn-cover-03 { background-image: url("img/cover-03.jpg"); }
 
-
 /** .index **/
 .index {
   font-family: sans-serif;
@@ -329,7 +329,7 @@ body {
 }
 
 .index-nav a {
-  color: #FD4422;
+  color: #fd4422;
   font-size: 14px;
   padding-bottom: 8px;
   display: inline-block;
@@ -341,7 +341,7 @@ body {
 }
 
 .index-box {
-  background: #FFFAF8;
+  background: #fffaF8;
   margin-bottom: 14px;
 }
 
@@ -358,13 +358,13 @@ body {
 .index-box-name {
   color: white;
   font-size: 18px;
-  background: #FD4422;
+  background: #fd4422;
   display: block;
   padding: 12px 16px 12px 84px;
 }
 
 .index-box-deets {
-  background: #FFECE8;
+  background: #ffecE8;
   display: block;
   padding: 12px 16px 12px 84px;
 }
@@ -374,13 +374,13 @@ body {
 }
 
 .index-box-deets h5 {
-  color: #867D7A;
+  color: #867d7a;
   font-weight: 400;
   text-transform: uppercase;
 }
 
 .index-box-card {
-  background: #FFFAF8;
+  background: #fffaf8;
   padding: 12px;
 }
 
@@ -398,8 +398,8 @@ body {
 
 .index-box-byline {
   color: #626261;
-  background: #FFFAF8;
-  border-top: 1px solid #FECEC5;
+  background: #fffad8;
+  border-top: 1px solid #fecec5;
   padding: 12px;
   list-style: none;
 }
@@ -450,8 +450,8 @@ body {
 .topic-popular header {
   padding: 0 14px 14px 14px;
   width: 100%;
-  background: rgb(9,9,9);
-  background: linear-gradient(0deg, rgba(9,9,9,0.9) 45%, rgba(241,241,241,0) 100%);
+  background: rgb(9, 9, 9);
+  background: linear-gradient(0deg, rgba(9, 9, 9, 0.9) 45%, rgba(241, 241, 241, 0) 100%);
 }
 
 .topic-popular h2 a {
@@ -476,13 +476,13 @@ body {
 }
 
 .topic-popular li {
-  color: #99999A;
+  color: #99999a;
   display: inline-block;
   margin-right: 7px;
 }
 
 .topic-latest {
-  background: #FFF5F3;
+  background: #fff5f3;
   display: flex;
   justify-content: space-between;
 }
@@ -495,14 +495,14 @@ body {
 }
 
 .topic-latest-img {
-  background-color: #FD4422;
+  background-color: #fd4422;
   width: 96px;
   height: 96px;
   flex-shrink: 1;
 }
 
 .topic-latest h2 a {
-  color: #FD4422;
+  color: #fd4422;
   font-size: 14px;
 }
 
@@ -511,7 +511,7 @@ body {
 }
 
 .topic-latest h5 {
-  color: #FD4422;
+  color: #fd4422;
   font-size: 10px;
   font-weight: 400;
   text-transform: uppercase;
@@ -524,7 +524,7 @@ body {
 
 .headlines li {
   color: #FD4422;
-  border-bottom: 1px solid #EEEEEE;
+  border-bottom: 1px solid #eeeeee;
   padding: 7px;
 }
 
@@ -538,7 +538,7 @@ body {
 }
 
 /** topic media  **/
-@media(min-width: 768px){
+@media (min-width: 768px) {
   .topics {
     display: flex;
     flex-wrap: wrap;
@@ -548,7 +548,6 @@ body {
     width: 50%;
     padding: 7px;
     margin-bottom: 14px;
-
   } 
 }
 
@@ -599,7 +598,7 @@ body {
   text-transform: uppercase;
   display: inline-block;
   cursor: pointer;
-  color: #AAAAAA;
+  color: #aaaaaa;
   padding: 7px;
 }
 
@@ -627,10 +626,9 @@ body {
   width: 100%;
 }
 
-@media(min-width: 768px) {
+@media (min-width: 768px) {
   .footer-legal li {
-  display: inline-block;
-    
+  display: inline-block; 
   }
 }
 
@@ -642,4 +640,3 @@ body {
     margin: 0 auto;
   }
 }
-
