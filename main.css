@@ -12,7 +12,7 @@
   - Large: 1024px
   **/
 
-.price{
+.price {
   text-decoration: line-through;
 }
 
@@ -41,9 +41,9 @@ body {
   display: flex;
 }
 
-.topbar-item{
+.topbar-item {
   padding: 16px 20px;
-  border: 1px solid #EEEEEE;
+  border: 1px solid #eeeeee;
   margin-right: -1px;
 }
 
@@ -59,10 +59,11 @@ body {
 }
 
 .topbar-icon {
-  color: #BFBFBF;
+  color: #bfbfbf;
 }
 
-.topbar-icon-menu {  
+.topbar-icon-menu 
+{  
   color: #FD4422;
 }
 
