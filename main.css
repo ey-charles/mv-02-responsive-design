@@ -528,12 +528,12 @@ body {
   padding: 7px;
 }
 
-.headlines a {
+.headlines-link {
   color: #555555;
 }
 
-.headlines a:hover,
-.headlines a:focus {
+.headlines-link:hover,
+.headlines-link:focus {
   color: black;
 }
 
