@@ -219,6 +219,10 @@ body {
   color: #131313;
 }
 
+.topic-popular h2 a {
+  color: white;
+}
+
 .index-nav a:hover,
 .index-nav a:focus {
   color: black;
@@ -430,7 +434,6 @@ body {
 .tn-cover-02 { background-image: url("img/cover-02.jpg"); }
 .tn-cover-03 { background-image: url("img/cover-03.jpg"); }
 
-
 /** .topics **/
 .topics {
   font-family: sans-serif;
@@ -453,10 +456,6 @@ body {
   width: 100%;
   background: rgb(9, 9, 9);
   background: linear-gradient(0deg, rgba(9, 9, 9, 0.9) 45%, rgba(241, 241, 241, 0) 100%);
-}
-
-.topic-popular h2 a {
-  color: white;
 }
 
 .topic-popular h2 a:hover,
