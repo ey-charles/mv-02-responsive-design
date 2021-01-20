@@ -215,10 +215,6 @@ body {
   display: inline-block;
 }
 
-.news-article a {
-  color: #131313;
-}
-
 .topic-popular h2 a {
   color: white;
 }
@@ -342,8 +338,12 @@ body {
   width: 100%;
 }
 
-.news-article a:hover,
-.news-article a:focus {
+.news-article-link {
+  color: #131313;
+}
+
+.news-article-link:hover,
+.news-article-link:focus {
   color: #fd4422;
   text-decoration: underline;
 }
