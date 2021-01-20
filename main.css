@@ -215,13 +215,17 @@ body {
   display: inline-block;
 }
 
+.news-article a {
+  color: #131313;
+}
+
 .index-nav a:hover,
 .index-nav a:focus {
   color: black;
 }
 
 .index-box {
-  background: #fffaF8;
+  background: #fffaf8;
   margin-bottom: 14px;
 }
 
@@ -244,7 +248,7 @@ body {
 }
 
 .index-box-deets {
-  background: #ffecE8;
+  background: #ffece8;
   display: block;
   padding: 12px 16px 12px 84px;
 }
@@ -332,10 +336,6 @@ body {
 
 .news-article-thumbnail img {
   width: 100%;
-}
-
-.news-article a {
-  color: #131313;
 }
 
 .news-article a:hover,
