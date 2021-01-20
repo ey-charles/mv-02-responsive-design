@@ -4,7 +4,7 @@ Microverse Project No. 2: Building a responsive website
 
 > Building a responsive website using only HTML5 and CSS3 as part of The Odin Project Challenge. Displaying the use of FlexBox, Grid etc.
 
-![screenshot](./screenshot.png)
+![screenshot](./sceenshot.PNG)
 
 Additional description about the project and its features.
 
