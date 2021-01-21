@@ -1,4 +1,4 @@
-# mv-02-responsive-design
+# Project No. 2: Responsive design
 
 Microverse Project No. 2: Building a responsive website
 
@@ -10,32 +10,12 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML5, CSS3
+- No frameworks!
 
 ## Live Demo
 
 [Live Demo Link](https://ey-charles.github.io/mv-02-responsive-design/)
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
 
 ## Authors
 
