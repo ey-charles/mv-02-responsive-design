@@ -27,14 +27,28 @@ body {
 
 /** .topbar **/
 .topbar {
-  background: white;
+  background: black;
   display: flex;
-  justify-content: space-between;
-  position: fixed;
+  align-items: center;
+  position: sticky;
   top: 0;
   left: 0;
   right: 0;
   z-index: 99;
+}
+
+.topbar-logo {
+  padding: 16px 20px;
+  height: 100%;
+}
+
+.topbar-logo-img {
+  width: 66px;
+  height: 16px;
+}
+
+.topbar-content {
+  flex-grow: 1;
 }
 
 .topbar-right {
@@ -47,17 +61,6 @@ body {
   margin-right: -1px;
 }
 
-.topbar-logo {
-  background: #131313;
-  display: inline-block;
-  padding: 16px 20px;
-}
-
-.topbar-logo-img {
-  width: 66px;
-  height: 16px;
-}
-
 .topbar-icon {
   color: #bfbfbf;
 }
@@ -68,6 +71,29 @@ body {
 
 .topbar-menu {
   display: none;
+}
+
+.whitenav {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blacknav {
+  background: #131313;
+  font-family: sans-serif;
+  display: none;
+}
+
+.blacknav-item {
+  color: #a1a1a1;
+  display: inline-block;
+  padding: 7px 7px;
+}
+
+.blacknav-item:hover,
+.blacknav-item:focus {
+  color: white;
 }
 
 @media (min-width: 768px) {
@@ -98,11 +124,25 @@ body {
   .topbar-menu-item a:hover {
     color: black;
   }
+
+  .blacknav {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
-/** .main **/
-.main {
-  padding-top: 50px;
+@media (min-width: 1024px) {
+  .topbar-logo {
+    display: none;
+  }
+
+  .blacknav {
+    padding: 0 14px;
+  }
+
+  .whitenav {
+    padding-left: 7px;
+  }
 }
 
 .section-title {
@@ -125,6 +165,14 @@ body {
   padding: 14px;
 }
 
+.cover-logo {
+  display: none;
+  position: absolute;
+  width: 480px;
+  top: 28px;
+  left: 28px;
+}
+
 .cover--grid {
   display: grid;
   grid-template-columns: 100%;
@@ -136,6 +184,7 @@ body {
   background-color: black;
   display: flex;
   align-items: flex-end;
+  position: relative;
 }
 
 .cover-item a {
@@ -195,6 +244,10 @@ body {
   .cover-item--main .cover-title {
     position: absolute;
     bottom: 56px;
+  }
+
+  .cover-logo {
+    display: block;
   }
 }
 
